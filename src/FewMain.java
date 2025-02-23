@@ -7,7 +7,7 @@ public class FewMain {
 
         ClientListener listener = new ClientListener(clientA, clientB);
         
-        // Attach the listener to both frames’ send buttons
+        // Attach the listener to both frames send buttons
         clientA.getSendButton().addActionListener(listener);
         clientB.getSendButton().addActionListener(listener);
 		
